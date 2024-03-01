@@ -85,13 +85,23 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
+    <AndroidResource Include="Resources\venonat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Mapita\Mapita.csproj">
       <Project>{5C278A21-A9C2-4EDF-9BED-865C7E8E4505}</Project>
       <Name>Mapita</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\planti.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

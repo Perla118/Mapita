@@ -10,10 +10,16 @@
             </Grid.RowDefinitions>
 
             <maps:Map x:Name="map"
-                      InitialCameraUpdate="-23.68, -46.87, 11"
+                      InitialCameraUpdate="27.36784668642386, -109.93249298833581, 17"
                       VerticalOptions="FillAndExpand">
             </maps:Map>
         </Grid>
     </ContentPage.Content>
+
+    <!--<StackLayout Margin="50">
+
+        <maps:Map x:Name="map" MapType="Terrain"/>
+        <Label Text="Visualiza la zona a regar" FontSize="36" HorizontalOptions="Center"  />
+    </StackLayout>-->
 
 </ContentPage>

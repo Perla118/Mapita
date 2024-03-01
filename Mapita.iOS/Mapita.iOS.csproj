@@ -136,4 +136,7 @@
       <Name>Mapita</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\venonat.png" />
+  </ItemGroup>
 </Project>

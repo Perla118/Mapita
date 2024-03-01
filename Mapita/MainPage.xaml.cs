@@ -19,17 +19,19 @@ namespace Mapita
         }
         private void GeneratePins()
         {
+            
             var pins = new List<Pin>
             {
-                new Pin { Type = PinType.Place, Label = "This is my home", Address = "Here", Position = new Position(-23.68, -46.87) },
-                new Pin { Type = PinType.Place, Label = "This is my home", Address = "Here", Position = new Position(-23.68, -46.77) },
-                new Pin { Type = PinType.Place, Label = "This is my home", Address = "Here", Position = new Position(-23.68, -46.97) },
+                new Pin { Type = PinType.Place, Label = "UTS", Address = "UTS", Position = new Position(27.36784668642386, -109.93249298833581), 
+                    Icon = BitmapDescriptorFactory.FromBundle("venonat.png") },
+                //new Pin { Type = PinType.Place, Label = "Auditorio principal", Address = "UTS", Position = new Position(27.367380221875546, -109.93210668810191) },
             };
 
             foreach (var pin in pins)
             {
                 // Podemos usar FromBundle, FromStream o FromView (custom view)
-                //pin.Icon = BitmapDescriptorFactory.FromBundle("coffee_pin.png");
+                
+                
                 map.Pins.Add(pin);
             }
         }
